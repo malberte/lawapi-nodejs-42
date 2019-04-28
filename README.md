@@ -3,15 +3,13 @@
 `git clone https://github.com/malberte/nodejs-42.git ~/bin/nodejs`
 
 #### Faites un lien symbolique de `~/bin/nodejs/bin/` des 3 executables `node`, `npm` et `npx`
-`cd ~/bin/nodejs/bin/`
+`ln -s ~/bin/nodejs/bin/node ~/bin/`
 
-`ln -s node ~/bin/`
+`ln -s ~/bin/nodejs/bin/npm ~/bin/`
 
-`ln -s npm ~/bin/`
+`ln -s ~/bin/nodejs/bin/npx ~/bin/`
 
-`ln -s npx ~/bin/`
-
-#### Ajoutez `~/bin` a votre `$PATH` si c'est pas déjà fait dans votre fichier `~/.zshrc`
+#### Ajoutez `~/bin` a votre `$PATH` si c'est pas déjà fait dans votre fichier `~/.zshrc` (copiez la ligne ci dessous dedans)
 `export PATH=/Users/malberte/bin:$PATH-`
 
 #### Testez la bonne installation
