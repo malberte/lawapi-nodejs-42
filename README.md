@@ -1,6 +1,6 @@
 # lawapi-nodejs-42
 #### Clonez ce depot dans `~/bin`
-`git clone https://github.com/malberte/lawapi-nodejs-42.git ~/bin/nodejs`
+`git clone https://github.com/malberte/nodejs-42.git ~/bin/nodejs`
 
 #### Faites un lien symbolique de `~/bin/nodejs/bin/` des 3 executables `node`, `npm` et `npx`
 `cd ~/bin/nodejs/bin/`
