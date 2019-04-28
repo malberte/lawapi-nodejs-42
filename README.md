@@ -15,6 +15,7 @@
 `export PATH=/Users/malberte/bin:$PATH-`
 
 #### Testez la bonne installation
+Rechargez le terminal puis
 
 `node --version && npm --version`
 
