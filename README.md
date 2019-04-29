@@ -10,7 +10,7 @@
 `ln -s ~/bin/nodejs/bin/npx ~/bin/`
 
 #### Ajoutez `~/bin` a votre `$PATH` si c'est pas déjà fait dans votre fichier `~/.zshrc` (copiez la ligne ci dessous dedans)
-`export PATH=/Users/malberte/bin:$PATH-`
+`export PATH=/Users/$USER/bin:$PATH-`
 
 #### Testez la bonne installation
 Rechargez le terminal puis
